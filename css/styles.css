@@ -1,0 +1,198 @@
+body{
+	font-size:12px;
+	
+	text-align: justify;
+}
+h1, h2,h3,h4{
+	font-family: 'Dosis', sans-serif;
+}
+em{
+	font-family: 'Lobster Two', cursive;
+}
+html,
+body { height: 100%; }
+ 
+body {
+  display: table;
+  width: 100%;
+}
+#logo{
+	padding:15px 0;
+}
+#logo a{
+	padding:20px 6px;
+} 
+.logoTop{
+	margin-top: 15px;
+}
+.logoTop button{
+	font-weight: 900;
+}
+.footer {
+  display: table-row;
+  height: 1px;
+}
+#aboutUsHeading img{
+	width:1140px;
+}
+#contactUs { height: 100%; }
+
+
+.jumbotron{
+	background-color: #DCDCDC;
+	
+	text-align: center;
+}
+.jumbotron h2{
+	padding: 30px 0 0px 0;
+}
+.jumbotron h2 em{
+	background:#FFFFFF;
+	color: #111111;
+	
+}
+.captioned{
+	margin-bottom: 20px;
+}
+.jumbotron h3{
+	
+	padding-bottom: 20px;
+}
+.courseImages img{
+	height:230px;
+	text-align:center;
+	padding:0 20px 0 30px;
+	position:absolute;
+	z-index:99;
+	top:25px;
+}
+
+#coursesOffered{
+	margin-bottom: 30px;
+}
+.aboutMission{
+	font-size: 14px;
+	padding-bottom: 5px;
+}
+#footerStyle{
+	background-color: #d7d7d7;
+	padding-top: 20px;
+	font-size: 12px;
+}
+.socialSites i{
+
+	
+	padding:0 10px 0 0;
+
+}
+.img1{
+	color:#3B5998;
+}
+.img2{
+	color:#050505;
+}
+.img3{
+	color:#dd4b39;
+}
+.img4{
+	color:#0274b3;
+}
+.img5{
+	color:#3cf;
+}
+footer{
+	padding:10px 20px;
+}
+.ourCourses{
+	border:1px solid #D6D6D6;
+	padding:10px;
+	font-size: 12px;
+	margin-bottom: 10px;
+
+}
+.ourCourses h2{
+	min-height: 66px;
+}
+.ourCourses p{
+	min-height: 102px;
+}
+
+
+
+
+.padded{
+	padding:30px 0;
+}
+
+
+
+#contactUs address{
+	
+	font-size: 20px;
+	font-weight: bold;
+}
+#content{
+	padding-top: 60px;
+}
+.courseContent{
+	padding-top: 60px;
+}
+.headerModal{
+	padding-bottom: 45px;
+}
+.headerModal p{
+	padding-top: 25px;
+}
+ #map-container { 
+ 	height: 400px;
+ 	margin-bottom: 50px;
+ }
+ 
+      @media only screen and (min-width : 768px) {
+        .navbar-collapse{
+          padding-left: 0;
+          padding-right: 0;
+        }
+        .navbar .navbar-inner {
+    padding: 0;
+}
+
+.navbar .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+.navbar .nav li {
+    display: table-cell;
+    
+    float: none;
+}
+
+.navbar .nav li a {
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, .75);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.navbar .nav li:first-child a {
+    border-left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.navbar .nav li:last-child a {
+    border-right: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+      @media only screen and (min-width : 992px) {
+        .navbar-collapse{
+          padding-left: 0;
+          padding-right: 0;
+        }
+
+    }
+
+    }
+
