@@ -33,6 +33,8 @@ body{
 }
 #sectionalHeader img{
 	max-height: 100px;
+	padding-left: 10px;
+	padding-right: 5px;
 }
 .courseDay{
 	width:45px;
