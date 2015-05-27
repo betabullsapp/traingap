@@ -17,11 +17,17 @@ body {
   width: 100%;
 }
 #logo{
-	padding:15px 0;
+	padding-top:12px;
+	margin-bottom: 5px;
+
 }
-#logo a{
-	padding:20px 6px;
-} 
+.workWithYou h3{
+	font-size: 20px;
+}
+.navbar{
+	margin-bottom: 10px;
+}
+
 .logoTop{
 	margin-top: 15px;
 }
@@ -32,14 +38,12 @@ body {
   display: table-row;
   height: 1px;
 }
-#aboutUsHeading img{
-	width:1140px;
-}
+
 #contactUs { height: 100%; }
 #workWithUs{ font-size:14px; }
 
 .jumbotron{
-	background-color: #DCDCDC;
+	background-color: #22b4aa;
 	
 	text-align: center;
 }
@@ -55,8 +59,9 @@ body {
 	margin-bottom: 20px;
 }
 .jumbotron h3{
+	font-weight: 900;
 	
-	padding-bottom: 20px;
+	padding-bottom: 6px;
 }
 .courseImages img{
 	height:230px;
@@ -70,6 +75,7 @@ body {
 #coursesOffered{
 	margin-bottom: 30px;
 }
+
 .aboutMission{
 	font-size: 14px;
 	padding-bottom: 5px;
@@ -115,12 +121,15 @@ footer{
 	margin-bottom: 10px;
 
 }
-.ourCourses h2{
-	min-height: 66px;
+.ourCourses img{
+	width:544px;
+	height:300px;
 }
-.ourCourses p{
-	min-height: 102px;
+#aboutUsHeading{
+	margin-bottom: 10px;
 }
+
+
 
 
 
@@ -128,14 +137,14 @@ footer{
 .padded{
 	padding:30px 0;
 }
-
-
-
-#contactUs address{
-	
-	font-size: 20px;
-	font-weight: bold;
+.adressSize{
+	font-size: 15px;
 }
+.adressSize strong{
+	font-size: 25px;
+}
+
+
 #content{
 	padding-top: 60px;
 }
@@ -149,7 +158,8 @@ footer{
 	padding-top: 25px;
 }
  #map-container { 
- 	height: 400px;
+ 	height: 300px;
+ 	width:553px;
  	margin-bottom: 50px;
  }
  
@@ -191,13 +201,25 @@ footer{
     border-radius: 0 3px 3px 0;
 }
 
-      @media only screen and (min-width : 992px) {
+@media only screen and (min-width : 992px) {
         .navbar-collapse{
           padding-left: 0;
           padding-right: 0;
         }
+        .logoTop{
+        	text-align: right;
+        }
+        #coursesOffered img{
+	height:135px;
+	width:240.5px;
+}
+.ourCourses p{
+	min-height: 137px;
+}
 
     }
 
-    }
+    
+
+
 
