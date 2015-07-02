@@ -39,6 +39,9 @@ body {
   height: 1px;
 }
 
+#contactUsSideBar a{
+	cursor: default;
+}
 #contactUs { height: 100%; }
 #workWithUs{ font-size:14px; }
 
@@ -128,7 +131,12 @@ footer{
 #aboutUsHeading{
 	margin-bottom: 10px;
 }
-
+.logoTop .btn{
+	cursor: default; 
+}
+.logoTop #buttonStyles{
+	cursor: pointer !important;
+}
 
 
 
